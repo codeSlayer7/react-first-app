@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app{
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+
+}
+.app-header{
+  width: 100%;
+}
+.search-panel-box{
+
+display: flex;
+
+}
+
+.important-btn{
+  background-color: brown;
+  color: red;
+}
+.postForm{
+  width: 80%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+   
+}
+.search-input{
+
+  width: 60%;
+  height: 38px;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.postFormInput{
+
+  width: 80%;
+  height: 100%;
+  padding: 0.375rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.btn{
+  margin-left: 5px;
+}
+.ul.list{
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+/* .post-list-item{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-bottom: 0px;
+} */
+
+.post-list-label{
+  font-size: 1.5rem;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
